@@ -10,9 +10,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/google/certificate-transparency/go"
-	"github.com/google/certificate-transparency/go/client"
-	"github.com/google/certificate-transparency/go/x509"
+	"github.com/google/certificate-transparency-go"
+	"github.com/google/certificate-transparency-go/client"
+	"github.com/google/certificate-transparency-go/x509"
 )
 
 // Clients wishing to implement their own Matchers should implement this interface:

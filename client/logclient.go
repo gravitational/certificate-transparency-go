@@ -16,7 +16,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/google/certificate-transparency/go"
+	"github.com/google/certificate-transparency-go"
 	"github.com/mreiferson/go-httpclient"
 )
 
@@ -299,7 +299,7 @@ func (c *LogClient) GetEntries(start, end int64) ([]ct.LogEntry, error) {
 	if err != nil {
 		return nil, err
 	}
-	entries := make([]ct.LogEntry, end-start+1, end-start+1)
+	entries := make([]ct.LogEntry, len(resp.Entries))
 	for index, entry := range resp.Entries {
 		leafBytes, err := base64.StdEncoding.DecodeString(entry.LeafInput)
 		leaf, err := ct.ReadMerkleTreeLeaf(bytes.NewBuffer(leafBytes))

@@ -11,10 +11,10 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/google/certificate-transparency/go"
-	"github.com/google/certificate-transparency/go/client"
-	"github.com/google/certificate-transparency/go/preload"
-	"github.com/google/certificate-transparency/go/scanner"
+	"github.com/google/certificate-transparency-go"
+	"github.com/google/certificate-transparency-go/client"
+	"github.com/google/certificate-transparency-go/preload"
+	"github.com/google/certificate-transparency-go/scanner"
 )
 
 const (

@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/google/certificate-transparency/go"
+	"github.com/google/certificate-transparency-go"
 )
 
 const (

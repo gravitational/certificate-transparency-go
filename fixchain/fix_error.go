@@ -3,7 +3,7 @@ package fixchain
 import (
 	"fmt"
 
-	"github.com/google/certificate-transparency/go/x509"
+	"github.com/google/certificate-transparency-go/x509"
 )
 
 type errorType int

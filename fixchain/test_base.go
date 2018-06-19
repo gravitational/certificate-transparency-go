@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/google/certificate-transparency/go/x509"
+	"github.com/google/certificate-transparency-go/x509"
 )
 
 // CertificateFromPEM takes a string representing a certificate in PEM format

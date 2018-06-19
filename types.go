@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/google/certificate-transparency/go/x509"
+	"github.com/google/certificate-transparency-go/x509"
 )
 
 const (

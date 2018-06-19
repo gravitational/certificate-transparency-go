@@ -7,9 +7,9 @@ import (
 	"math/big"
 	"regexp"
 
-	"github.com/google/certificate-transparency/go"
-	"github.com/google/certificate-transparency/go/client"
-	"github.com/google/certificate-transparency/go/scanner"
+	"github.com/google/certificate-transparency-go"
+	"github.com/google/certificate-transparency-go/client"
+	"github.com/google/certificate-transparency-go/scanner"
 )
 
 const (

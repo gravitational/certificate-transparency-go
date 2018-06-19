@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/google/certificate-transparency/go/x509"
+	"github.com/google/certificate-transparency-go/x509"
 )
 
 // Fixer contains methods to fix certificate chains and properties to store

@@ -4,7 +4,7 @@ import (
 	"crypto/sha256"
 	"sync"
 
-	"github.com/google/certificate-transparency/go/x509"
+	"github.com/google/certificate-transparency-go/x509"
 )
 
 // DedupedChain is a chain of certificates with any duplicates dropped
